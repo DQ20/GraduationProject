@@ -1,0 +1,29 @@
+<!--pages/detail/detail.wxml-->
+<view class="goods" wx:for="{{goods}}">
+    <image src="{{item.img}}" mode="widthFix"></image>
+    <view class="info">
+        <text>名称:{{item.a}}</text>
+        <text>数量:{{item.b}}</text>
+        <text>购买日期:{{item.c}}</text>
+        <text>保质期:{{item.d}}</text>
+        <text>损坏程度:{{item.e}}</text>
+        <text>使用说明:{{item.f}}</text>
+        <text>禁用人群:{{item.g}}</text>
+        <text>生产地址:{{item.h}}</text>
+        <text>生产日期:{{item.i}}</text>
+        <text>使用年龄:{{item.j}} - {{item.k}}</text>
+   </view>
+</view>
+<view class="btn">
+
+<view class="left" bindtap="close">
+    感谢物主
+</view>
+
+<view class="right" bindtap="foods_user">
+    查看物主
+</view>
+
+</view>
+
+

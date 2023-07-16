@@ -1,0 +1,33 @@
+/* pages/thank/thank.wxss */
+.box{
+    padding: 15rpx;
+    border: 1rpx solid #efefef;
+    border-radius: 8rpx;
+    margin:15rpx;
+    box-shadow: 1rpx 1rpx 15rpx #ddd;
+    text-align: center;
+    overflow: hidden;
+}
+.ti{
+   display: block;
+}
+.au{
+     display: block;
+    float: right;
+}
+.im{
+    display: inline-block;
+    width: 50rpx;
+    height: 50rpx;
+}
+image{
+    float: left;
+    width: 50rpx;
+    height: 50rpx;
+}
+.num{
+    display: inline-block;
+}
+.zan{
+    float: left;
+}

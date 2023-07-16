@@ -1,0 +1,35 @@
+text{
+    display: block;
+    margin-bottom: 30rpx;
+}
+button{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #cccccc;
+    height: 80rpx;
+}
+.b{
+    margin-left: 28rpx;
+}
+view{
+    margin-top: 10rpx;
+    margin-bottom: 30rpx;
+    margin-left: 180rpx;
+}
+input{
+    display: inline-block;
+    border: 2rpx solid;
+    vertical-align: middle;
+    border-radius: 10rpx;
+    padding-left: 20rpx;
+    width: 240rpx;
+    height: 50rpx;
+}
+.im{
+    margin-top: 50rpx;
+}
+.btn{
+    margin-top: 50rpx;
+    margin-left: 220rpx;
+    /* text-align: center; */
+}

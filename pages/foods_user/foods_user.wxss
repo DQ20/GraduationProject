@@ -1,0 +1,23 @@
+
+.top{
+    text-align: center;
+}
+.touxiang{
+    margin:80rpx auto;
+    background-color: brown;
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50% 50%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+text{
+    margin-left: 200rpx;
+    margin-bottom: 20rpx;
+}
+.btn{
+    background-color: #efefef;
+    margin-top: 80rpx;
+}

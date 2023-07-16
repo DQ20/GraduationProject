@@ -1,0 +1,13 @@
+<view class="im">请上传一张图片：<button style="width:160rpx" bindtap="uploadImg">上传</button></view>
+<view>昵称：<input bindinput="a" placeholder="{{a}}" class="b" type="text"/></view>
+<view>性别：<input bindinput="b" placeholder="{{b}}" class="b" type="text"/></view>
+<view>手机号码：<input bindinput="c" placeholder="{{c}}" type="number"/></view>
+<view>微信号码：<input bindinput="d" placeholder="{{d}}" type="text"/></view>
+<view>称呼：<input bindinput="e" placeholder="{{e}}"  class="b" type="text"/></view>
+<view>城市：<input bindinput="f" placeholder="{{f}}" class="b" type="text"/></view>
+<view>年龄：<input bindblur="g" placeholder="{{g}}" class="b" type="number"/></view>
+
+<view class="btn">
+    <button type="primary" bindtap="primary">保存</button>
+</view>
+ 

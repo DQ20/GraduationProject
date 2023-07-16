@@ -1,0 +1,51 @@
+{
+    "pages":[
+      "pages/list/list",
+      "pages/donate/donate",
+      "pages/connect/connect",
+      "pages/detail/detail",
+      "pages/thank/thank",
+      "pages/user/user",
+      "pages/add/add",
+      "pages/myDetail/myDetail",
+      "pages/modifyUserimf/modifyUserimf",
+      "pages/foods_user/foods_user"
+    ],
+    "window":{
+      "backgroundTextStyle":"light",
+      "navigationBarBackgroundColor": "#445CBB",
+      "navigationBarTitleText": "手留余香",
+      "navigationBarTextStyle":"white"
+    },
+    "tabBar": {
+        "list": [
+      {
+          "pagePath": "pages/list/list",
+          "text": "List",
+          "iconPath": "/images/tab/list.png",
+          "selectedIconPath": "/images/tab/list-active.png"
+      },
+      {
+          "pagePath": "pages/donate/donate",
+          "text": "Donate",
+          "iconPath": "/images/tab/donate.png",
+          "selectedIconPath": "/images/tab/donate-active.png"
+      },
+      {
+          "pagePath": "pages/thank/thank",
+          "text": "Thank",
+          "iconPath": "/images/tab/thank.png",
+          "selectedIconPath": "/images/tab/thank-active.png"
+      },
+      {
+          "pagePath": "pages/user/user",
+          "text": "User",
+          "iconPath": "/images/tab/user.png",
+          "selectedIconPath": "/images/tab/user-active.png"
+      }
+      ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+  }
+  

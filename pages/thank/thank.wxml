@@ -1,0 +1,13 @@
+<view class="box" wx:for="{{txt}}" wx:key="_id" bindtap="tc" data-id="{{item._id}}">
+
+<text class="ti">感谢{{item.name2}}</text>
+<text class="au">----{{item.name}}</text>
+
+<view class="zan">
+   <view class="im">
+    <image src="{{item.size==0?dianzanpng:dianzanpng2}}" catchtap="clickzan" data-id="{{item._id}}"></image>
+    <text>{{item.size}}</text>
+   </view>
+</view>
+</view>
+

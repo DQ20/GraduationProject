@@ -1,0 +1,27 @@
+/* pages/myDetail/myDetail.wxss */
+/* pages/detail/detail.wxss */
+.goods image{
+    width: 100%;
+    /* margin-left: 5%; */
+    /* margin-top: 10rpx; */
+    /* border-radius: 5rpx 5rpx; */
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100rpx;
+}
+text{
+    margin-top: 15rpx;
+}
+.btn{
+    width: 35%;
+    height: 150rpx;
+    background-color:#445CBB;
+    margin-left: 30%;
+    margin-top: 100rpx;
+    border-radius: 20rpx;
+    line-height: 150rpx;
+    text-align: center;
+    color: white;
+}

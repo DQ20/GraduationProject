@@ -1,0 +1,16 @@
+<view class="im">请上传一张图片：<button style="width:160rpx" bindtap="uploadImg">上传</button></view>
+<view>物品名称：<input bindinput="a" type="text"/></view>
+<view>剩余数量：<input bindinput="b" type="text"/></view>
+<view>生产日期：<input bindinput="c" type="text"/></view>
+<view>保质期：<input bindinput="d" class="b" type="text"/></view>
+<view>损坏程度：<input bindinput="e" type="text"/></view>
+<view>使用说明：<input bindinput="f" type="text"/></view>
+<view>禁用人群：<input bindinput="g" type="text"/></view>
+<view>生产地址：<input bindinput="h" type="text"/></view>
+<view>购买日期：<input bindinput="i" type="text"/></view>
+<view>使用年龄：<input style="width: 100rpx;" bindblur="j" placeholder="{{0}}" type="number"/> - <input style="width: 100rpx;" bindblur="k" placeholder="{{0}}" type="number"/></view>
+<view class="btn">
+    <button type="primary" bindtap="primary">保存</button>
+</view>
+
+

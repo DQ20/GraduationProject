@@ -1,0 +1,18 @@
+<text>我的物品：</text>
+<block wx:for="{{goods}}" wx:key="_id">
+    <view class="goods-item" bindtap="detail" data-id="{{item._id}}">
+    <view class="thumb">
+        <image src="{{item.img}}" mode="heightFix"></image>
+        <view class="info">
+            <text class="goods-title">{{item.a}}</text>
+            <text>数量：{{item.b}}</text>
+            <text>保质期：{{item.d}}</text>
+        </view>
+    </view>
+</view>
+</block>
+
+
+<navigator class="goods-item-add" url="/pages/add/add">
+        <image src="/images/donate/add.jpg" mode="heightFix"></image>  
+</navigator>
